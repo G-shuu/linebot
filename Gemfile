@@ -54,3 +54,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'line-bot-api', github: 'stivan622/line-bot-sdk-ruby'
 gem 'dotenv-rails'
+gem 'slack-api'
