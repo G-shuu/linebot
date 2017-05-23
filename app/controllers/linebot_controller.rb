@@ -21,7 +21,7 @@ class LinebotController < ApplicationController
             type: 'text',
             text: 'slackに送信しました'
           }
-          Slack.chat_postMessage text: event.message['text'], username: "line-bot", channel: "#general"
+          Slack.chat_postMessage text: event.message['text'], username: "line-bot", channel: "#hackathon"
           response = client.reply_message(event['replyToken'], message)
         end
       end
